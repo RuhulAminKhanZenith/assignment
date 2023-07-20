@@ -1,8 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 10px 10px;
-    background-color: aliceblue;
+
     margin-bottom: 50px;
 
 }
@@ -24,7 +28,6 @@ nav a {
 
 .title {
     text-align: center;
-    font-family: Work Sans;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -47,9 +50,7 @@ nav a {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 10px 0px 10px;
-    /*width: 262px;
-    height: 56px;
-    flex-shrink: 0;*/
+  
 }
 
 .play-like {
@@ -64,7 +65,6 @@ nav a {
 .h3 {
     color: #0B0223;
     text-align: center;
-    font-family: 'Gill Sans';
     font-size: 48px;
     font-weight: 600;
     margin: 0px 0px;
@@ -87,9 +87,9 @@ nav a {
 }
 
 .play {
-    /* display: flex;*/
-    width: 500px;
-    height: 400px;
+ 
+    width: 470px;
+    height: 450px;
 }
 
 .gt {
@@ -104,7 +104,7 @@ nav a {
 }
 
 #funny {
-    /*text-align: center;*/
+    
     font-size: 48px;
 }
 
@@ -114,13 +114,111 @@ nav a {
 
 .p {
     color: #534C64;
-    font-family: Work Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
-.fun-im{
+
+.fun-im {
     width: 300px;
     height: 390px;
 }
+
+.play-inst {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 40px 10px 10px 40px;
+    display: flex;
+}
+
+.pg {
+    color: #534C64;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.anim {
+    width: 300px;
+    height: 350px;
+}
+
+.anim-2 {
+    width: 170px;
+    height: 200px
+}
+
+.btn {
+    background-color: #e5e2eb;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin: 15px 5px 15px 5px;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+button:hover {
+    border: 3px solid #FF42A5;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 9px 9px 10px 0px #F948B2;
+    font-weight: 700;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background-color: #0B0223;
+}
+
+.ftr {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+
+}
+
+.ftr-2 {
+    color: white;
+    font-size: 25px;
+    display: inline-flex;
+    padding: 20px 50px;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.sv {
+    padding: 30px 50px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 250px;
+}
+
+.foot {
+    display: inline-flex;
+    padding: 30px 30px;
+    align-items: flex-start;
+    gap: 60px;
+   
+}
+
+.ft {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 10px 60px 10px;
+}
+
+
+
